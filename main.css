@@ -1,0 +1,15 @@
+
+html {
+  text-align: center;
+  font-family: "Helvetica";
+}
+
+h1 {
+  background-color: #1264A9;
+  margin: 0px;
+  color: white;
+}
+
+form, input[type="text"] {
+  margin: 10px;
+}
