@@ -7,9 +7,19 @@ html {
 h1 {
   background-color: #1264A9;
   margin: 0px;
+  padding: 5px;
   color: white;
 }
 
-form, input[type="text"] {
-  margin: 10px;
+input {
+	padding: 10px;
+	font-size: 18px;
+	margin: 0.75vw;
+	border-radius: 10px;
 }
+
+input[type="text"] {
+ text-align: center;
+ font-size: 36px;
+}
+

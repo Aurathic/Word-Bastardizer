@@ -1,16 +1,16 @@
 <html>
   <head>
-    <link>
+    	<link rel="stylesheet" type="text/css" href="main.css">
+ 
   </head>
   <bodY>
-    <h1>
+    <h1 id="title">
       Word Bastardizer
     </h1>
-    <P>
-      <form action="">
-        <input type="text" placeholder="Goznalez" name="word"><br>
-        <input type="submit" name="Submit">
-      </form>
-    </P>
+    <input type="text" id="input" placeholder="Goznalez" onchange="changeOriginalWord()" name="word"><br>
+    <input type="button" value="Revert Changes">
+    <input type="button" value="Mess It Up!" onclick="messUpWord()">
   </bodY>
+
 </html>
+<script type="text/javascript" src="word-bastardizer.js"></script>
